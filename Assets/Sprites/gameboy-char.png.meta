@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92ddd216d48cc0b1198c35c14749e6ce
-      internalID: 570045601
+      spriteID: ebaface7fba0f4345ab1094f96f99a8c
+      internalID: -2097873783
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 548d5a3ecda269e9f9e630c1f1496548
-      internalID: 205311985
+      spriteID: 8c39f91e6b76ebad7b6038ea996955a2
+      internalID: 628627940
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836d312ad093922988ca0875f8df1f3e
-      internalID: 454549002
+      spriteID: 8c14947304313ee159a11e8ae00b68e2
+      internalID: -1045301833
       vertices: []
       indices: 
       edges: []
@@ -194,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd55f6fde6ef5540086f3e65654629a3
-      internalID: -798202861
+      spriteID: 713fcb3533393c55cac1455f884c94ee
+      internalID: 385781644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameboy-char_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16b9da5e7ceac317912c264e50c1e6e
+      internalID: -1020190206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gameboy-char_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbef11708052f530bfe5f2100e3efaf
+      internalID: 660792325
       vertices: []
       indices: 
       edges: []
@@ -203,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 16ed684730a5b8026ab670c3dfa7a132
+    spriteID: 65e09b67f9fb4481281646491479fb0c
     internalID: 0
     vertices: []
     indices: 
@@ -211,10 +253,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gameboy-char_0: 570045601
-      gameboy-char_1: 205311985
-      gameboy-char_2: 454549002
-      gameboy-char_3: -798202861
+      gameboy-char_0: -2097873783
+      gameboy-char_1: 628627940
+      gameboy-char_2: -1045301833
+      gameboy-char_3: 385781644
+      gameboy-char_4: -1020190206
+      gameboy-char_5: 660792325
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

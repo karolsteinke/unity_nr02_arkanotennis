@@ -6,10 +6,8 @@ public class TopDownPlayer : MonoBehaviour
 {
     [SerializeField] private float speed = 0.01f;
     private Animator _anim;
-    //private Rigidbody _body;
 
     void Start() {
-        //_body = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
     }
 
@@ -21,6 +19,8 @@ public class TopDownPlayer : MonoBehaviour
             Input.GetAxis("Vertical")
         );
         movement = Vector3.ClampMagnitude(movement, speed);
+        
+        //set new clamped position based on movement vector
         transform.position += movement;
         transform.position = new Vector3(
             Mathf.Clamp(transform.position.x, -0.55f, 0.55f),
@@ -29,12 +29,12 @@ public class TopDownPlayer : MonoBehaviour
         );
 
         //update animator's parameter to match character's state
-        float movMagnitude = movement.sqrMagnitude;
-        _anim.SetFloat("speed", Mathf.Abs(movMagnitude));
+        _anim.SetFloat("speed", Mathf.Abs(movement.sqrMagnitude));
 
-        //face sprite to velocity
-        if (!Mathf.Approximately(movMagnitude, 0)) {
-            transform.localScale = new Vector3(Mathf.Sign(movement.x),1,1);
+        //face sprite to velocity vector
+        float movX = movement.x;
+        if (!Mathf.Approximately(movX, 0)) {
+            transform.localScale = new Vector3(Mathf.Sign(movX),1,1);
         }
     }
 }
